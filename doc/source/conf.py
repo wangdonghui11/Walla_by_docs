@@ -20,6 +20,7 @@
 project = 'Wallaby Docs'
 copyright = '2021, Wallaby'
 author = 'Wallaby'
+html_theme = "sphinx_rtd_theme"
 
 
 # -- General configuration ---------------------------------------------------
