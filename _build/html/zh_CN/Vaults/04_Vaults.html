@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+
+<html lang="zh_CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Vaults &#8212; Wallaby Docs  文档</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="ZAP" href="../ZAP/index.html" />
+    <link rel="prev" title="Vaults" href="index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="vaults">
+<h1><span class="section-number">1. </span>Vaults<a class="headerlink" href="#vaults" title="永久链接至标题">¶</a></h1>
+<ul class="simple">
+<li><p>Vaults</p>
+<ul>
+<li><p>Wallaby Staking Farm</p></li>
+</ul>
+</li>
+</ul>
+<p>In this farm, users can stake using their Wallaby tokens, while getting back WHT. The APR for this farm is dependent on the performance of all the other farms, since the 30% performance fee on other farms are what is collected and given out as the reward/roi for the Wallabystaking pool. Wallaby Pool has no withdrawal fee and no performance fee.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Wallaby/HT Farm</p></li>
+</ul>
+</div></blockquote>
+<p>In this farm, users can deposit Wallaby/HT and earn even more Wallaby tokens. There should be a withdrawal fee of 0.5% if withdrawn within 72 hours.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>MDX Auto Compounding Farm</p></li>
+</ul>
+</div></blockquote>
+<p>The MDX farm is where you can reap the benefits of automating compounding and the high APY. There should be a withdrawal fee of 0.5% if withdrawn within 72 hours. The 30% performance fee is collected but for every 1HT in fees collected, we give 5 Wallaby, so you’re getting free money.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Rest of MDXSwap Farms</p></li>
+</ul>
+</div></blockquote>
+<p>Currently we have Wallaby-WHT，MDX-WHT ,HBTC-WHT, ETH-WHT pools, which exist on MDXswap. Our smart contracts automatically compound your investments, giving you a higher APY. For these pools, as profit you will be getting the respective LP Token of the pool, as well as Wallaby tokens. 30% of profits will be collected and given as Wallaby tokens. For every 1HT collected, we give 10 Wallaby. There should be a withdrawal fee of 0.5% if withdrawn within 72 hours. Currently you can only claim your profits, if you claim &amp; exit the pool. We may change this in the future.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Maximizer MDXSwap Farms</p></li>
+</ul>
+</div></blockquote>
+<p>The Maximizer farms takes the profits that come out of the original compounded MDXswap farm, and puts it into the MDX auto-compounding farm, in order to give you a higher apy, while protecting your principal. There should be a withdrawal fee of 0.5% if withdrawn within 72 hours. With the Maximizer Farms, users can claim their profits, without exiting the farm.</p>
+<p>According to our test calculations, assuming that MDX price stays constant, USDT-HT Farm APY is 30%, and MDX APR is 300%, then the APY of someone who deposits into the “Yield Maximizing USDT-HT Farm” would be 189.9%. This is much higher than the 30% achieved by simply compounding USDT-HT, yet the risk is very minimal. The only risks would be if MDX price drops significantly, or if the MDX APR drops as well. That being said even if the MDX price drops significantly the principal amount invested in USDT and HT would still be the same. Similar to our regular farms, in order to fully benefit from the compounding effect, a user must have the patience to sit back and watch their money grow exponentially over time. One small complication is that because of the way the new yield maximized farms are coded through back end development, the yields earned daily (24 hour period) get distributed the next day on a rolling cycle. This means that users who deposit from day 0 to day 1 would be at a slight disadvantage as they would not be able to receive their fair share of yields for the first 24 hours. To mitigate this effect we plan on giving these early users some Wallaby to compensate for the lost yields. The graph below illustrates the difference in returns between the original Stable-HT farm and the new Yield Maximizing Stable-HT farm.</p>
+<p>We have provided the mathematical formula for calculating the total geometric sum. Feel free to use it to personalize your calculations.</p>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Wallaby Docs</a></h1>
+
+
+
+
+
+
+
+
+<h3>导航</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../How-to-Guides/index.html">How-to Guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../BUNNY-token/index.html">BUNNY token</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Vaults</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1. Vaults</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../ZAP/index.html">ZAP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Governance/index.html">Governance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../FAQ/index.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Audits/index.html">Audits</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Vaults</a><ul>
+      <li>Previous: <a href="index.html" title="上一章">Vaults</a></li>
+      <li>Next: <a href="../ZAP/index.html" title="下一章">ZAP</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="转向" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Wallaby.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/Vaults/04_Vaults.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

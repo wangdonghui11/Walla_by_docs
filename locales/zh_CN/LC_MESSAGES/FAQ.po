@@ -1,0 +1,359 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Wallaby
+# This file is distributed under the same license as the Wallaby Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wallaby Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 11:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../FAQ/07_FAQ.rst:2 ../../FAQ/07_FAQ.rst:3 ../../FAQ/index.rst:2
+msgid "FAQ"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:5
+msgid "What is Wallaby?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:7
+msgid ""
+"Wallaby is a new and rapidly growing DeFi yield aggregator that is used "
+"for MDXSwap. The Wallaby protocol empowers farmers to leverage their "
+"yield-seeking tendencies to optimize yield compounding strategy on HECO. "
+"We are providing strategies for the various needs of farmers from the "
+"highest yield seekers to the risk reward optimizing smart investors."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:9
+msgid "What is the Reason for launching Wallaby?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:11
+msgid ""
+"We wanted to create a platform that automatically compounds yields for "
+"all individuals, no matter how small your stake may be. Our goal is to "
+"expand the DeFi ecosystem, specifically on the Huobi ECO Chain, while "
+"providing users with various strategies to maximize returns while "
+"minimizing risk."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:13
+msgid "How do Wallaby Farms Work?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:15
+msgid ""
+"Currently, the majority of our farms are those that exist on Mdex Swap. "
+"Essentially the farms on our platform get permission from individuals via"
+" smart contracts to automatically compound and reinvest yields on behalf "
+"of individuals."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:17
+msgid "Can’t I just compound by myself?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:19
+msgid ""
+"Compounding yourself on MdexSwap is a very tedious process and it is "
+"often hard to know the optimal frequency and timing of when to compound "
+"and reinvest your yields. Wallaby does all of this for you plus saves you"
+" gas fees."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:21
+msgid "What is the Wallaby Token?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:23
+msgid ""
+"Wallaby Token is our native governance token. Wallaby holders govern our "
+"ecosystem and receive the majority of farm performance fee profits. "
+"Holding/Staking Wallaby is not only beneficial for individual profits, "
+"but also ensures the Wallaby Ecosystem runs smoothly."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:25
+msgid "Which Wallaby Farm do I pick?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:27
+msgid ""
+"Every Farm requires a different LP Token. Furthermore the different Farms"
+" represent different risk tolerances for Wallaby users. A high APY "
+"usually means more volatility in the underlying token price. For example,"
+" HUSD-USDT has a much lower compounded APY than MDX-WHT, since HUSD is a "
+"stable coin which is pegged to the dollar and does not experience "
+"volatility."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:29
+msgid "What are the risks of Farming on Wallaby?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:31
+msgid "Systematic Risk"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:33
+msgid ""
+"The Systematic Risk would be the decrease of monetary value of assets "
+"deposited, be in HT, MDX, etc. For example HT could be $20 when you "
+"deposit and $15 when you withdraw"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:35
+msgid "Idiosyncratic Risk"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:37
+msgid ""
+"The Idiosyncratic Risk would be risks associated with our actual project."
+" Although our code has been audited by Haechi Labs, there are always "
+"risks that projects will fall victim to malicious hackers. That being "
+"said, our Wallaby developers account for the security risks of smart "
+"contracts and only will interact with contracts that meet the security "
+"threshold."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:39
+#, python-format
+msgid "How to Determine Daily % Gains?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:41
+msgid ""
+"Because the APY is constantly changing on MdexSwap, the Compounded APY on"
+" the Wallaby Platform is constantly changing. Furthermore, because this "
+"APY is calculated via compounded (exponential growth), it cannot be "
+"calculated in a linear manner (i.e. APY/365) So long as you hold your "
+"tokens in our farms for an extended period of time, your assets will "
+"continue to grow exponentially."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:43
+msgid "Where does MDX or LP come from in the rewards?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:45
+msgid ""
+"MDX or the LP tokens are all used from Mdexswap, we automatically "
+"compound yields via Mdexswap."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:47
+msgid "Where does Wallaby come from?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:49
+msgid ""
+"Wallaby is minted via smart contracts. For every 1HT earned in peformance"
+" fees, 10 Wallaby is newly minted and distributed."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:51
+#, python-format
+msgid "Where does Swap % come from?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:53
+msgid "This comes from Mdexswap."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:55
+msgid "Which rewards get compounded?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:57
+msgid ""
+"Currently all the farms get compounded except for the Wallaby Staking "
+"farm and the Wallaby/HT farm. The Wallaby rewards that come out of all "
+"pools, currently are not compounded. Only the MDX and flip rewards are "
+"auto-compounded."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:59
+msgid "What is the Fee Structure?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:61
+msgid "Withdrawal Fee"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:63
+msgid ""
+"There is a 0.5% withdrawal fee from Farms only if withdrawal happens "
+"within 72 hours of deposit. This fee exists to maintain the smooth flow "
+"of the ecosystem and to prevent possible exploitation from individuals "
+"acting under bad faith. For example if there was no 0.5% withdrawal fee "
+"within the 72 hours, someone could keep depositing right before the "
+"compounding takes place and withdraw right after and still reap the same "
+"benefits and continuous long-term holders."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:65
+msgid "Performance Fee"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:67
+msgid ""
+"We have a 30% performance fee on our farms, but the majority of the "
+"profit from these fees goes back to go rewards for staking Wallaby, "
+"thereby ensuring the sustainability and longevity of our project and "
+"benefitting Wallaby supporters/holders."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:69
+msgid "Can I make a partial withdrawal?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:71
+msgid "No, you can only exit and withdraw your whole investment."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:73
+msgid "Why are the transaction fees so high?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:75
+msgid ""
+"High fee is because withdrawing it’s not just one transaction. With one "
+"click the smart contract is actually doing multiple transactions and thus"
+" requires more gas."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:77
+msgid "How does the timer work?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:79
+#, python-format
+msgid ""
+"Withdraws within 72h will have a 0.5% fee applied. This timer is reset "
+"every time you make a new deposit. Claiming rewards on the pools that "
+"allow it does not reset the timer."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:81
+msgid "How is the profit calculated?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:83
+#, python-format
+msgid ""
+"At the moment of withdrawal (exit & claim) the performance fee is exactly"
+" calculated (30% of profits) and Wallaby is rewarded."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:85
+msgid "Is there slippage using the ZAP function?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:87
+msgid ""
+"ZAP is based on MdexSwap’s swap feature so we can’t control the "
+"slippage/IL associated with it."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:89
+msgid "Why is my TVL or Deposit showing 0?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:91
+msgid ""
+"If you see 0 tvl or 0 deposit just try refreshing your browser and "
+"reconnecting your wallet."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:93
+msgid "Why am I getting failing transactions?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:95
+msgid ""
+"Unfortunately this seems to be a common issue on the chain lately. Try "
+"increasing by 5 GWEI. When this happens, it is probably happening on "
+"MdexSwap (and other projects as well), and it is generally fine if you "
+"use 18-20 GWEI."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:98
+msgid "Who is behind Wallaby?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:100
+msgid ""
+"The Wallaby Project was created by a team of developers and blockchain "
+"specialists! Like all other Yield Aggregator Projects, we believe our "
+"code is who we are! Thus, we will ensure to provide full transparency and"
+" let our code speak for itself."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:102
+msgid "Is Wallaby Safe?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:104
+msgid ""
+"Like all DeFi Projects, it is important not to trust but to verify the "
+"legitimacy of each project by confirming the data/code. As such we are "
+"providing full transparency by releasing all the code/data required to "
+"confirm that Wallaby runs smoothly. Check out our github: "
+"https://github.com/Wallaby-finance"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:106
+msgid "Is Wallaby Audited?"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:108
+msgid ""
+"Yes, Haechi Labs has completed the first audit. The results were "
+"extremely positive! The audit highlighted no critical or major issues, "
+"and two minor issues. One of the minor issues has been found on most "
+"well-known governance tokens and will not expose much issue/security risk"
+" to normal end-users. The other minor issue is an intended behavior."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:110
+msgid "Please see the report here"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:112
+msgid "APR & APY"
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:114
+msgid ""
+"Let’s assume the APR of the MDX farm is 365%. This means that on average "
+"if we divide 365% by 365 days, we get a daily return of 1%. Now since "
+"Wallaby compounds this 1%, we can estimate the compounded APR using the "
+"following calculation: (1+0.01)^365 - 1 = 3678% Keep in mind that this is"
+" an assumption that only holds true if the APR of MDX farm stays constant"
+" through one year. However, this is obviously not the case since the APY "
+"also changes by the second. We can use the same calculation for the rest "
+"of the Farms as well! Just divide the APR by 365, which would be the "
+"average daily yield. (1+daily yield)^365 -1 = Compounded APY."
+msgstr ""
+
+#: ../../FAQ/07_FAQ.rst:116
+msgid ""
+"The new maximizer farms put the daily yields from the Farms, into the MDX"
+" compounding pools. The Stable Coin-HT Farms have a current APY of 30%, "
+"but if we use the maximizer farms the APY increases to about 150%. This "
+"strategy is truly unique and advantageous since the principal investment "
+"does not get touched, and only the extra yields from the farm get "
+"invested in the more volatile, high risk-high reward MDX pool."
+msgstr ""
+

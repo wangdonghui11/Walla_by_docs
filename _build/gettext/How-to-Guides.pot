@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Wallaby
+# This file is distributed under the same license as the Wallaby Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wallaby Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 11:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:2
+#: ../../How-to-Guides/index.rst:2
+msgid "How-to Guides"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:4
+msgid "Prerequisites"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:6
+msgid "You must have a specific Farm’s underlying token. For MDX-WHT, you need MDX tokens and WHT tokens. The same for other respective farms."
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:8
+msgid "You must have a supported wallet, either metamask, Trust Wallet or Walletconnect!"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:10
+msgid "Walkthrough"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:12
+msgid "Go to Wallaby.finance/ and click “Connect Wallet”"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:14
+msgid "Click either the Metamask or WalletConnect Icon depending on what you use"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:16
+msgid "Select the Farm you want to invest in"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:18
+msgid "You need LP Tokens (LP Tokens) (MDX-WHT LP, HBTC-WHT LP, etc)"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:20
+msgid "You can also use our Zap feature to provide LP tokens with just one click."
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:22
+msgid "After receiving LP Tokens, enter the amount of tokens you want to deposit and click “Deposit”"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:24
+msgid "Confirm the transaction with Metamask or WalletConnect"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:26
+msgid "View the transaction on HecoInfo and await the confirmation"
+msgstr ""
+
+#: ../../How-to-Guides/02_How-to-Guides.rst:28
+msgid "Congrats! You have now joined the WallabyFarm!"
+msgstr ""

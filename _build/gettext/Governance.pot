@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Wallaby
+# This file is distributed under the same license as the Wallaby Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wallaby Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 11:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Governance/06_Governance.rst:2
+#: ../../Governance/06_Governance.rst:3
+#: ../../Governance/index.rst:2
+msgid "Governance"
+msgstr ""
+
+#: ../../Governance/06_Governance.rst:5
+msgid "Wallaby holders control the ecosystem and receive the majority of farm performance fee profits. In order to claim these profits, Wallaby holders stake their tokens in the Wallaby Governance Pool. Profits are sent to this pool in the form of HT rewards. The amount of profits you receive is determined by the number of Wallaby tokens you stake (% of the pool) you own. We currently have a snapshot voting page where users can use Wallaby to vote on decisions within our community. Thus the more Wallaby you stake, the higher your influence in the ecosystem. In the future, we expect to come up with a more concrete governance tokenomics ecosystem, perhaps by introducing a new, separate governance token."
+msgstr ""

@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Wallaby
+# This file is distributed under the same license as the Wallaby Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wallaby Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 11:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../Introduction/01_Introduction.rst:2 ../../Introduction/index.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:4
+msgid "Compound Yields with Wallaby"
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:6
+msgid ""
+"Our team is dedicated to support the underlying DeFi ecosystem by "
+"providing users with an easy way to automatically compound their yields "
+"through the Huobi ECO Chain. The DeFi movement, and more specifically "
+"Yield Aggregators, have seen a huge surge in activity in 2020. The Rise "
+"of Yearn, which uses existing protocols such as Compound, DyDx, and "
+"Curve, has influenced the development of various other Yield Aggregator "
+"projects on the Ethereum Network. Our goal is to expand that same "
+"interest through the Huobi ECO Chain Ecosystem."
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:8
+msgid "Yield Optimization Strategies with Wallaby.Finance"
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:10
+msgid ""
+"A key difference in Yield Farming on Huobi ECO Chain is the low gas fee. "
+"This makes it much easier for small players and ordinary individuals to "
+"enter the DeFi space and still get a good share of the crops with small "
+"amounts of capital. Through automation, Our allows individuals to reap "
+"the benefits of compounding without any additional steps. Ourcalculates "
+"the most optimal compounding frequency and automatically compounds your "
+"tokens through smart contracts."
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:12
+msgid ""
+"Wallaby, like other yield aggregators on Huobi ECO Chain, uses MDX since "
+"it is the most prominent platform for Yield Farming. Ouris continuously "
+"striving to create innovative new Yield Optimization Strategies. "
+"Currently we have Wallaby，MDX，Wallaby-WHT，MDX-WHT ,HBTC-WHT, ETH-WHT "
+"Pools. Furthermore, on our website, you can see we have the maximizer "
+"vaults. These strategies allow users to get the profits from certain "
+"pools and these profits are automatically auto compounded into the MDX "
+"compounding pool, giving users a much greater return, while protecting "
+"the principal."
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:14
+msgid "Contact Us"
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:16
+msgid "Twitter: @PanMDXWallabyFin https://twitter.com/PanMDXWallabyFin"
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:18
+msgid "Telegram: https://t.me/panMDXWallaby_fin"
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:20
+msgid "Medium: https://panMDXWallaby.medium.com"
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:22
+msgid "Email: hello@panMDXWallaby.finance"
+msgstr ""
+
+#: ../../Introduction/01_Introduction.rst:24
+msgid "GitHub: https://github.com/PanMDXWallaby-finance/"
+msgstr ""
+
