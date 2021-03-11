@@ -1,0 +1,360 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en-CH" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1. What is Wallaby? &mdash; Wallaby Docs  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Audits" href="../Audits/index.html" />
+    <link rel="prev" title="FAQ" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Wallaby Docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../How-to-Guides/index.html">How-to Guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../BUNNY-token/index.html">BUNNY token</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Vaults/index.html">Vaults</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ZAP/index.html">ZAP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Governance/index.html">Governance</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">FAQ</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1. What is Wallaby?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-the-reason-for-launching-wallaby">2. What is the Reason for launching Wallaby?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-do-wallaby-farms-work">3. How do Wallaby Farms Work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cant-i-just-compound-by-myself">4. Can’t I just compound by myself?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-the-wallaby-token">5. What is the Wallaby Token?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#which-wallaby-farm-do-i-pick">6. Which Wallaby Farm do I pick?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-are-the-risks-of-farming-on-wallaby">7. What are the risks of Farming on Wallaby?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-determine-daily-gains">8. How to Determine Daily % Gains?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#where-does-mdx-or-lp-come-from-in-the-rewards">9. Where does MDX or LP come from in the rewards?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#where-does-wallaby-come-from">10. Where does Wallaby come from?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#where-does-swap-come-from">11. Where does Swap % come from?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#which-rewards-get-compounded">12. Which rewards get compounded?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-the-fee-structure">13. What is the Fee Structure?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#can-i-make-a-partial-withdrawal">14. Can I make a partial withdrawal?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-are-the-transaction-fees-so-high">15. Why are the transaction fees so high?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-does-the-timer-work">16. How does the timer work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-is-the-profit-calculated">17. How is the profit calculated?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#is-there-slippage-using-the-zap-function">18. Is there slippage using the ZAP function?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-is-my-tvl-or-deposit-showing-0">19. Why is my TVL or Deposit showing 0?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-am-i-getting-failing-transactions">20. Why am I getting failing transactions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#who-is-behind-wallaby">21. Who is behind Wallaby?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#is-wallaby-safe">22. Is Wallaby Safe?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#is-wallaby-audited">23. Is Wallaby Audited?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Audits/index.html">Audits</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Wallaby Docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">FAQ</a> &raquo;</li>
+        
+      <li><span class="section-number">1. </span>What is Wallaby?</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/FAQ/07_FAQ.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="what-is-wallaby">
+<h1><span class="section-number">1. </span>What is Wallaby?<a class="headerlink" href="#what-is-wallaby" title="Permalink to this headline">¶</a></h1>
+<p>Wallaby is a new and rapidly growing DeFi yield aggregator that is used for MDXSwap. The Wallaby protocol empowers farmers to leverage their yield-seeking tendencies to optimize yield compounding strategy on HECO. We are providing strategies for the various needs of farmers from the highest yield seekers to the risk reward optimizing smart investors.</p>
+</div>
+<div class="section" id="what-is-the-reason-for-launching-wallaby">
+<h1><span class="section-number">2. </span>What is the Reason for launching Wallaby?<a class="headerlink" href="#what-is-the-reason-for-launching-wallaby" title="Permalink to this headline">¶</a></h1>
+<p>We wanted to create a platform that automatically compounds yields for all individuals, no matter how small your stake may be. Our goal is to expand the DeFi ecosystem, specifically on the Huobi ECO Chain, while providing users with various strategies to maximize returns while minimizing risk.</p>
+</div>
+<div class="section" id="how-do-wallaby-farms-work">
+<h1><span class="section-number">3. </span>How do Wallaby Farms Work?<a class="headerlink" href="#how-do-wallaby-farms-work" title="Permalink to this headline">¶</a></h1>
+<p>Currently, the majority of our farms are those that exist on Mdex Swap. Essentially the farms on our platform get permission from individuals via smart contracts to automatically compound and reinvest yields on behalf of individuals.</p>
+</div>
+<div class="section" id="cant-i-just-compound-by-myself">
+<h1><span class="section-number">4. </span>Can’t I just compound by myself?<a class="headerlink" href="#cant-i-just-compound-by-myself" title="Permalink to this headline">¶</a></h1>
+<p>Compounding yourself on MdexSwap is a very tedious process and it is often hard to know the optimal frequency and timing of when to compound and reinvest your yields. Wallaby does all of this for you plus saves you gas fees.</p>
+</div>
+<div class="section" id="what-is-the-wallaby-token">
+<h1><span class="section-number">5. </span>What is the Wallaby Token?<a class="headerlink" href="#what-is-the-wallaby-token" title="Permalink to this headline">¶</a></h1>
+<p>Wallaby Token is our native governance token. Wallaby holders govern our ecosystem and receive the majority of farm performance fee profits. Holding/Staking Wallaby is not only beneficial for individual profits, but also ensures the Wallaby Ecosystem runs smoothly.</p>
+</div>
+<div class="section" id="which-wallaby-farm-do-i-pick">
+<h1><span class="section-number">6. </span>Which Wallaby Farm do I pick?<a class="headerlink" href="#which-wallaby-farm-do-i-pick" title="Permalink to this headline">¶</a></h1>
+<p>Every Farm requires a different LP Token. Furthermore the different Farms represent different risk tolerances for Wallaby users. A high APY usually means more volatility in the underlying token price. For example, HUSD-USDT has a much lower compounded APY than MDX-WHT, since HUSD is a stable coin which is pegged to the dollar and does not experience volatility.</p>
+</div>
+<div class="section" id="what-are-the-risks-of-farming-on-wallaby">
+<h1><span class="section-number">7. </span>What are the risks of Farming on Wallaby?<a class="headerlink" href="#what-are-the-risks-of-farming-on-wallaby" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><ul class="simple">
+<li><p>Systematic Risk</p></li>
+</ul>
+</div></blockquote>
+<p>The Systematic Risk would be the decrease of monetary value of assets deposited, be in HT, MDX, etc. For example HT could be $20 when you deposit and $15 when you withdraw</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Idiosyncratic Risk</p></li>
+</ul>
+</div></blockquote>
+<p>The Idiosyncratic Risk would be risks associated with our actual project. Although our code has been audited by Haechi Labs, there are always risks that projects will fall victim to malicious hackers. That being said, our Wallaby developers account for the security risks of smart contracts and only will interact with contracts that meet the security threshold.</p>
+</div>
+<div class="section" id="how-to-determine-daily-gains">
+<h1><span class="section-number">8. </span>How to Determine Daily % Gains?<a class="headerlink" href="#how-to-determine-daily-gains" title="Permalink to this headline">¶</a></h1>
+<p>Because the APY is constantly changing on MdexSwap, the Compounded APY on the Wallaby Platform is constantly changing. Furthermore, because this APY is calculated via compounded (exponential growth), it cannot be calculated in a linear manner (i.e. APY/365) So long as you hold your tokens in our farms for an extended period of time, your assets will continue to grow exponentially.</p>
+</div>
+<div class="section" id="where-does-mdx-or-lp-come-from-in-the-rewards">
+<h1><span class="section-number">9. </span>Where does MDX or LP come from in the rewards?<a class="headerlink" href="#where-does-mdx-or-lp-come-from-in-the-rewards" title="Permalink to this headline">¶</a></h1>
+<p>MDX or the LP tokens are all used from Mdexswap, we automatically compound yields via Mdexswap.</p>
+</div>
+<div class="section" id="where-does-wallaby-come-from">
+<h1><span class="section-number">10. </span>Where does Wallaby come from?<a class="headerlink" href="#where-does-wallaby-come-from" title="Permalink to this headline">¶</a></h1>
+<p>Wallaby is minted via smart contracts. For every 1HT earned in peformance fees, 10 Wallaby is newly minted and distributed.</p>
+</div>
+<div class="section" id="where-does-swap-come-from">
+<h1><span class="section-number">11. </span>Where does Swap % come from?<a class="headerlink" href="#where-does-swap-come-from" title="Permalink to this headline">¶</a></h1>
+<p>This comes from Mdexswap.</p>
+</div>
+<div class="section" id="which-rewards-get-compounded">
+<h1><span class="section-number">12. </span>Which rewards get compounded?<a class="headerlink" href="#which-rewards-get-compounded" title="Permalink to this headline">¶</a></h1>
+<p>Currently all the farms get compounded except for the Wallaby Staking farm and the Wallaby/HT farm. The Wallaby rewards that come out of all pools, currently are not compounded. Only the MDX and flip rewards are auto-compounded.</p>
+</div>
+<div class="section" id="what-is-the-fee-structure">
+<h1><span class="section-number">13. </span>What is the Fee Structure?<a class="headerlink" href="#what-is-the-fee-structure" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><ul class="simple">
+<li><p>Withdrawal Fee</p></li>
+</ul>
+</div></blockquote>
+<p>There is a 0.5% withdrawal fee from Farms only if withdrawal happens within 72 hours of deposit. This fee exists to maintain the smooth flow of the ecosystem and to prevent possible exploitation from individuals acting under bad faith. For example if there was no 0.5% withdrawal fee within the 72 hours, someone could keep depositing right before the compounding takes place and withdraw right after and still reap the same benefits and continuous long-term holders.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Performance Fee</p></li>
+</ul>
+</div></blockquote>
+<p>We have a 30% performance fee on our farms, but the majority of the profit from these fees goes back to go rewards for staking Wallaby, thereby ensuring the sustainability and longevity of our project and benefitting Wallaby supporters/holders.</p>
+</div>
+<div class="section" id="can-i-make-a-partial-withdrawal">
+<h1><span class="section-number">14. </span>Can I make a partial withdrawal?<a class="headerlink" href="#can-i-make-a-partial-withdrawal" title="Permalink to this headline">¶</a></h1>
+<p>No, you can only exit and withdraw your whole investment.</p>
+</div>
+<div class="section" id="why-are-the-transaction-fees-so-high">
+<h1><span class="section-number">15. </span>Why are the transaction fees so high?<a class="headerlink" href="#why-are-the-transaction-fees-so-high" title="Permalink to this headline">¶</a></h1>
+<p>High fee is because withdrawing it’s not just one transaction. With one click the smart contract is actually doing multiple transactions and thus requires more gas.</p>
+</div>
+<div class="section" id="how-does-the-timer-work">
+<h1><span class="section-number">16. </span>How does the timer work?<a class="headerlink" href="#how-does-the-timer-work" title="Permalink to this headline">¶</a></h1>
+<p>Withdraws within 72h will have a 0.5% fee applied. This timer is reset every time you make a new deposit. Claiming rewards on the pools that allow it does not reset the timer.</p>
+</div>
+<div class="section" id="how-is-the-profit-calculated">
+<h1><span class="section-number">17. </span>How is the profit calculated?<a class="headerlink" href="#how-is-the-profit-calculated" title="Permalink to this headline">¶</a></h1>
+<p>At the moment of withdrawal (exit &amp; claim) the performance fee is exactly calculated (30% of profits) and Wallaby is rewarded.</p>
+</div>
+<div class="section" id="is-there-slippage-using-the-zap-function">
+<h1><span class="section-number">18. </span>Is there slippage using the ZAP function?<a class="headerlink" href="#is-there-slippage-using-the-zap-function" title="Permalink to this headline">¶</a></h1>
+<p>ZAP is based on MdexSwap’s swap feature so we can’t control the slippage/IL associated with it.</p>
+</div>
+<div class="section" id="why-is-my-tvl-or-deposit-showing-0">
+<h1><span class="section-number">19. </span>Why is my TVL or Deposit showing 0?<a class="headerlink" href="#why-is-my-tvl-or-deposit-showing-0" title="Permalink to this headline">¶</a></h1>
+<p>If you see 0 tvl or 0 deposit just try refreshing your browser and reconnecting your wallet.</p>
+</div>
+<div class="section" id="why-am-i-getting-failing-transactions">
+<h1><span class="section-number">20. </span>Why am I getting failing transactions?<a class="headerlink" href="#why-am-i-getting-failing-transactions" title="Permalink to this headline">¶</a></h1>
+<p>Unfortunately this seems to be a common issue on the chain lately. Try increasing by 5 GWEI. When this happens, it is probably happening on MdexSwap (and other projects as well), and it is generally fine if you use 18-20 GWEI.</p>
+</div>
+<div class="section" id="who-is-behind-wallaby">
+<h1><span class="section-number">21. </span>Who is behind Wallaby?<a class="headerlink" href="#who-is-behind-wallaby" title="Permalink to this headline">¶</a></h1>
+<p>The Wallaby Project was created by a team of developers and blockchain specialists! Like all other Yield Aggregator Projects, we believe our code is who we are! Thus, we will ensure to provide full transparency and let our code speak for itself.</p>
+</div>
+<div class="section" id="is-wallaby-safe">
+<h1><span class="section-number">22. </span>Is Wallaby Safe?<a class="headerlink" href="#is-wallaby-safe" title="Permalink to this headline">¶</a></h1>
+<p>Like all DeFi Projects, it is important not to trust but to verify the legitimacy of each project by confirming the data/code. As such we are providing full transparency by releasing all the code/data required to confirm that Wallaby runs smoothly. Check out our github: <a class="reference external" href="https://github.com/Wallaby-finance">https://github.com/Wallaby-finance</a></p>
+</div>
+<div class="section" id="is-wallaby-audited">
+<h1><span class="section-number">23. </span>Is Wallaby Audited?<a class="headerlink" href="#is-wallaby-audited" title="Permalink to this headline">¶</a></h1>
+<p>Yes, Haechi Labs has completed the first audit. The results were extremely positive! The audit highlighted no critical or major issues, and two minor issues. One of the minor issues has been found on most well-known governance tokens and will not expose much issue/security risk to normal end-users. The other minor issue is an intended behavior.</p>
+<p>Please see the report here</p>
+<ul class="simple">
+<li><p>APR &amp; APY</p></li>
+</ul>
+<p>Let’s assume the APR of the MDX farm is 365%. This means that on average if we divide 365% by 365 days, we get a daily return of 1%. Now since Wallaby compounds this 1%, we can estimate the compounded APR using the following calculation: (1+0.01)^365 - 1 = 3678% Keep in mind that this is an assumption that only holds true if the APR of MDX farm stays constant through one year. However, this is obviously not the case since the APY also changes by the second. We can use the same calculation for the rest of the Farms as well! Just divide the APR by 365, which would be the average daily yield. (1+daily yield)^365 -1 = Compounded APY.</p>
+<p>The new maximizer farms put the daily yields from the Farms, into the MDX compounding pools. The Stable Coin-HT Farms have a current APY of 30%, but if we use the maximizer farms the APY increases to about 150%. This strategy is truly unique and advantageous since the principal investment does not get touched, and only the extra yields from the farm get invested in the more volatile, high risk-high reward MDX pool.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../Audits/index.html" class="btn btn-neutral float-right" title="Audits" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="FAQ" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Wallaby.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

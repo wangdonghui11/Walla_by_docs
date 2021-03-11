@@ -1,0 +1,115 @@
+
+What is Wallaby?
+================
+Wallaby is a new and rapidly growing DeFi yield aggregator that is used for MDXSwap. The Wallaby protocol empowers farmers to leverage their yield-seeking tendencies to optimize yield compounding strategy on HECO. We are providing strategies for the various needs of farmers from the highest yield seekers to the risk reward optimizing smart investors.
+
+What is the Reason for launching Wallaby?
+=============================================
+We wanted to create a platform that automatically compounds yields for all individuals, no matter how small your stake may be. Our goal is to expand the DeFi ecosystem, specifically on the Huobi ECO Chain, while providing users with various strategies to maximize returns while minimizing risk.
+
+How do Wallaby Farms Work?
+============================
+Currently, the majority of our farms are those that exist on Mdex Swap. Essentially the farms on our platform get permission from individuals via smart contracts to automatically compound and reinvest yields on behalf of individuals.
+
+Can’t I just compound by myself?
+===================================
+Compounding yourself on MdexSwap is a very tedious process and it is often hard to know the optimal frequency and timing of when to compound and reinvest your yields. Wallaby does all of this for you plus saves you gas fees.
+
+What is the Wallaby Token?
+==============================
+Wallaby Token is our native governance token. Wallaby holders govern our ecosystem and receive the majority of farm performance fee profits. Holding/Staking Wallaby is not only beneficial for individual profits, but also ensures the Wallaby Ecosystem runs smoothly.
+
+Which Wallaby Farm do I pick?
+=================================
+Every Farm requires a different LP Token. Furthermore the different Farms represent different risk tolerances for Wallaby users. A high APY usually means more volatility in the underlying token price. For example, HUSD-USDT has a much lower compounded APY than MDX-WHT, since HUSD is a stable coin which is pegged to the dollar and does not experience volatility.
+
+What are the risks of Farming on Wallaby?
+===========================================
+  - Systematic Risk
+
+The Systematic Risk would be the decrease of monetary value of assets deposited, be in HT, MDX, etc. For example HT could be $20 when you deposit and $15 when you withdraw
+
+  - Idiosyncratic Risk
+
+The Idiosyncratic Risk would be risks associated with our actual project. Although our code has been audited by Haechi Labs, there are always risks that projects will fall victim to malicious hackers. That being said, our Wallaby developers account for the security risks of smart contracts and only will interact with contracts that meet the security threshold.
+
+How to Determine Daily % Gains?
+================================
+Because the APY is constantly changing on MdexSwap, the Compounded APY on the Wallaby Platform is constantly changing. Furthermore, because this APY is calculated via compounded (exponential growth), it cannot be calculated in a linear manner (i.e. APY/365) So long as you hold your tokens in our farms for an extended period of time, your assets will continue to grow exponentially.
+
+Where does MDX or LP come from in the rewards?
+================================================
+MDX or the LP tokens are all used from Mdexswap, we automatically compound yields via Mdexswap.
+
+Where does Wallaby come from?
+=============================
+Wallaby is minted via smart contracts. For every 1HT earned in peformance fees, 10 Wallaby is newly minted and distributed.
+
+Where does Swap % come from?
+================================
+This comes from Mdexswap.
+
+Which rewards get compounded?
+==================================
+Currently all the farms get compounded except for the Wallaby Staking farm and the Wallaby/HT farm. The Wallaby rewards that come out of all pools, currently are not compounded. Only the MDX and flip rewards are auto-compounded.
+
+What is the Fee Structure?
+===============================
+  - Withdrawal Fee
+
+There is a 0.5% withdrawal fee from Farms only if withdrawal happens within 72 hours of deposit. This fee exists to maintain the smooth flow of the ecosystem and to prevent possible exploitation from individuals acting under bad faith. For example if there was no 0.5% withdrawal fee within the 72 hours, someone could keep depositing right before the compounding takes place and withdraw right after and still reap the same benefits and continuous long-term holders.
+
+  - Performance Fee
+
+We have a 30% performance fee on our farms, but the majority of the profit from these fees goes back to go rewards for staking Wallaby, thereby ensuring the sustainability and longevity of our project and benefitting Wallaby supporters/holders.
+
+Can I make a partial withdrawal?
+=================================
+No, you can only exit and withdraw your whole investment.
+
+Why are the transaction fees so high?
+=========================================
+High fee is because withdrawing it’s not just one transaction. With one click the smart contract is actually doing multiple transactions and thus requires more gas.
+
+How does the timer work?
+===========================
+Withdraws within 72h will have a 0.5% fee applied. This timer is reset every time you make a new deposit. Claiming rewards on the pools that allow it does not reset the timer.
+
+How is the profit calculated?
+=================================
+At the moment of withdrawal (exit & claim) the performance fee is exactly calculated (30% of profits) and Wallaby is rewarded.
+
+Is there slippage using the ZAP function?
+==========================================
+ZAP is based on MdexSwap’s swap feature so we can’t control the slippage/IL associated with it.
+
+Why is my TVL or Deposit showing 0?
+=======================================
+If you see 0 tvl or 0 deposit just try refreshing your browser and reconnecting your wallet.
+
+Why am I getting failing transactions?
+============================================
+ 
+Unfortunately this seems to be a common issue on the chain lately. Try increasing by 5 GWEI. When this happens, it is probably happening on MdexSwap (and other projects as well), and it is generally fine if you use 18-20 GWEI.
+
+
+Who is behind Wallaby?
+======================
+The Wallaby Project was created by a team of developers and blockchain specialists! Like all other Yield Aggregator Projects, we believe our code is who we are! Thus, we will ensure to provide full transparency and let our code speak for itself.
+
+Is Wallaby Safe?
+================
+Like all DeFi Projects, it is important not to trust but to verify the legitimacy of each project by confirming the data/code. As such we are providing full transparency by releasing all the code/data required to confirm that Wallaby runs smoothly. Check out our github: https://github.com/Wallaby-finance
+
+Is Wallaby Audited?
+======================
+Yes, Haechi Labs has completed the first audit. The results were extremely positive! The audit highlighted no critical or major issues, and two minor issues. One of the minor issues has been found on most well-known governance tokens and will not expose much issue/security risk to normal end-users. The other minor issue is an intended behavior.
+
+Please see the report here
+
+- APR & APY
+
+Let’s assume the APR of the MDX farm is 365%. This means that on average if we divide 365% by 365 days, we get a daily return of 1%. Now since Wallaby compounds this 1%, we can estimate the compounded APR using the following calculation: (1+0.01)^365 - 1 = 3678% Keep in mind that this is an assumption that only holds true if the APR of MDX farm stays constant through one year. However, this is obviously not the case since the APY also changes by the second. We can use the same calculation for the rest of the Farms as well! Just divide the APR by 365, which would be the average daily yield. (1+daily yield)^365 -1 = Compounded APY.
+
+The new maximizer farms put the daily yields from the Farms, into the MDX compounding pools. The Stable Coin-HT Farms have a current APY of 30%, but if we use the maximizer farms the APY increases to about 150%. This strategy is truly unique and advantageous since the principal investment does not get touched, and only the extra yields from the farm get invested in the more volatile, high risk-high reward MDX pool.
+
